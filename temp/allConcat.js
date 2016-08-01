@@ -9,6 +9,7 @@ $(document).ready(function() {
     var words = entry1.wordCount();
     var letters = entry1.letterCount();
     var teaser = entry1.getTeaser();
+      $('#titleh3').append(title);
       $('#solution').append("<li>words: " + words + "</li>");
       $('#solution').append("<li>vowels: " + letters[0] + "</li>");
       $('#solution').append("<li>consonants: " + letters[1] + "</li>");
